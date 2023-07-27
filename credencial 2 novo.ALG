@@ -12,10 +12,14 @@ Inicio
  leia(password)
  
  enquanto (user<>"admin") ou (password<>"admin") faca
+       escreval("usuario ou senha invlidos")
        escreva("digite o seu usuário: ")
        leia(user)
        escreva("digite sua senha: ")
-       leia(passwrd)
+       leia(password)
 fimenquanto
  
- Fimalgoritmo
+escreval(" seja bem vindo ao sistema")
+
+
+Fimalgoritmo
